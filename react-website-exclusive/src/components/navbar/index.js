@@ -1,19 +1,35 @@
 import React from 'react'
-import {Nav, NavbarContainer, NavLogo } from './Navelements'
+import { Nav, NavbarContainer, NavMenu, NavItem, NavLink } from './Navelements'
 
 
 const Navbar = () => {
     return (
-       
-<Nav>
-<NavbarContainer>
-    <NavLogo to="/">
-        dolla
-    </NavLogo>
-    <h1>hi</h1>
-</NavbarContainer>
-</Nav>
-       
+
+        <Nav>
+            <NavbarContainer>
+                
+                <NavMenu>
+                <NavItem>
+                        <NavLink to="home">Home</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="about">About</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="projects">Projects</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="contact">Contact</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="resume">Resume</NavLink>
+                    </NavItem>
+                </NavMenu>
+
+
+            </NavbarContainer>
+        </Nav>
+
     );
 };
 
