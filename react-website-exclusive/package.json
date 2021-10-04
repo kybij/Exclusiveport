@@ -1,4 +1,4 @@
-{
+{"homepage": "http://kybij.github.io/ExclusivePort",
   "name": "react-website-exclusive",
   "version": "0.1.0",
   "private": true,
@@ -17,8 +17,8 @@
     "react-scripts": "^1.1.5",
     "react-scroll": "^1.8.4",
     "styled-components": "^5.3.1",
-    "web-vitals": "^1.1.2",
-    "homepage": "http://kybij.github.io/ExclusivePort" },
+    "web-vitals": "^1.1.2"
+     },
   
   "scripts": {
     "predeploy": "npm run build",
