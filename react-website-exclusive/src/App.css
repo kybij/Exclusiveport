@@ -1,6 +1,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
+
+.sliderimg {
+  width: 60%;
+  height: 500px;
+  margin-left: 25rem;
+  
+}
+
+.project {
+  position: absolute;
+  top: 12px;
+  font-family:'Roboto Mono', monospace ;
+  
+}
+.contact {
+  position: absolute;
+  top: 12px;
+  font-family:'Roboto Mono', monospace ;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+a {
+  
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
 .App {
   text-align: center;
 }
